@@ -138,3 +138,97 @@ body{
     font-weight: 900;
     line-height: 3.5rem;
 }
+
+.unlimited{
+    padding: 100px 0px 120px 120px;
+    word-spacing: 2px;
+}
+
+.unlimited p{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.unlimited h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+._3ardc img{
+    width: 100%;
+}
+
+._3ardc video{
+    position: absolute;
+    height: 310px;
+    width: 350px;
+    right: 180px;
+}
+
+.children img{
+    height: 380px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.child{
+    padding: 80px 100px 80px 0px;
+}
+.child h1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.child p{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.netflix{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.netflix button{
+    background-color: rgb(45,45,45);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2px 10px 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.netflix span{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.netflix svg{
+    height: 50px;
+    width: 50px;
+}
+
+.xy_para{
+    font-size: 18px;
+    padding: 40px;
+}
+
+._1yxb{
+    /* text-decoration: none; */
+    color: #ffffffb3;
+}
+
+._2rvz{
+    margin-top: 10px;
+    list-style-type: none;
+    color: #ffffffb3;
+    /* text-decoration: none; */
+}

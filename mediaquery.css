@@ -84,6 +84,69 @@
          right: 88px;
     }
 
+    .movie_1{
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .shows{
+        padding:0px 90px;
+        text-align: center;
+    }
+
+    .shows p{
+        font-weight: 400;
+        padding: none;
+    }
+
+    .mobile_panel_3{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    
+    .intro_shows{
+        font-weight: 900;
+        line-height: 2.3rem;
+    }
+
+    .doctor_strange{
+        position: absolute;
+        left: 160px;
+        bottom: -1515px;
+        padding: 10px 300px;   
+    }
+
+    .boxshot{
+        height: 50px;
+        width: 50px;
+    }
+
+
+    /* .everywhere{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .unlimited{
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .unlimited p{
+    }
+    
+    .unlimited h1{
+    }
+    
+    ._3ardc img{
+        
+    }
+    
+    ._3ardc video{
+    
+    } */
 
     
 }
