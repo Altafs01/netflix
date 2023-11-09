@@ -63,7 +63,7 @@
     }
 
     /* pane2 start-------- */
-    /* .panel_2{
+    .panel_2{
         border-bottom: 10px solid rgb(35,35,35);
         
     }
@@ -79,17 +79,27 @@
         text-align: center;
     }
 
+    .movie img{
+        height: 400px;
+        width: 500px;
+    }
+
     .movie_video{
         position: absolute;
         height: 138px;
         width: 296px;
         bottom: -680px;
         left: 38px;
-    } */
+    }
     /* panel2 end---------- */
 
 
-    /* panel3 start------- */
+    /* panel3start------- */
+    
+    .panel_3{
+        padding: none;
+    }
+
     .movie_1{
         flex-direction: column-reverse;
         flex-wrap: nowrap;
@@ -98,6 +108,7 @@
 
     .shows{
         padding:0px 10px;
+        
         text-align: center;
     }
 
@@ -129,7 +140,7 @@
     }
     /* panel 3 end------ */
 
-    /* .everywhere{
+    .everywhere{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -141,6 +152,7 @@
     }
     
     .unlimited p{
+
     }
     
     .unlimited h1{
@@ -152,7 +164,12 @@
     
     ._3ardc video{
     
-    } */
+    }
+
+    .footer{
+        flex-direction: column ;
+        text-align: center;
+    }
 
     
 }
