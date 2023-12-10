@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 .home{
@@ -82,16 +83,16 @@ body{
     line-height: 4rem;
 }
 
-.movie img{
+/* .movie img{
     width: 100%;
-}
+} */
 
 .movie_video{
     position: absolute;
-    top: 118.3%;
-    left: 57.6%;
+    left: 720px;
+    top: 662px;
     height: 257px;
-    width: 470px;
+    width: 390px;
     
 }
 
@@ -138,11 +139,11 @@ body{
     font-weight: 900;
     line-height: 3.5rem;
 }
-
+/* 
 .unlimited{
     padding: 100px 0px 120px 120px;
     word-spacing: 2px;
-}
+} */
 
 .unlimited p{
     font-weight: 400;
@@ -154,21 +155,13 @@ body{
     font-weight: 900;
 }
 
-._3ardc img{
-    width: 100%;
-}
-
-._3ardc video{
+._3ardc{
     position: absolute;
     height: 310px;
     width: 350px;
-    right: 180px;
-}
-
-.children img{
-    height: 380px;
-    /* margin-left: auto;
-    margin-right: auto; */
+    left: 730px;
+    top: 275%;
+    bottom: 10px;
 }
 
 .child{
@@ -184,6 +177,9 @@ body{
     font-size: 20px;
 }
 
+
+/* panel_8--------------------- */
+/* collopse button code   */
 .netflix{
     text-align: center;
     text-decoration: none;
@@ -193,28 +189,49 @@ body{
 .netflix button{
     background-color: rgb(45,45,45);
     width: 70%;
+    height: 68px;
     margin-left: auto;
     margin-right: auto;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px 2px 10px 20px;
-    text-decoration: none;
     border: none;
     margin-top: 10px;
+}
+
+.card{
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgb(45,45,45);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 0px;
+    margin-top: -14px;
+}
+
+.netflix i{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.netflix button:hover{
+    box-shadow: white;
 }
 
 .netflix span{
     margin-top: 10px;
     font-size: 20px;
     font-weight: 300;
-
 }
 
-.netflix svg{
-    height: 50px;
-    width: 50px;
+.add1{
+    width: 50%;
+    margin-left: 18%;
 }
+/* -------------------end collapse code  */
+
 
 .xy_para{
     font-size: 18px;
@@ -222,7 +239,6 @@ body{
 }
 
 ._1yxb{
-    /* text-decoration: none; */
     color: #ffffffb3;
 }
 
@@ -230,5 +246,7 @@ body{
     margin-top: 10px;
     list-style-type: none;
     color: #ffffffb3;
-    /* text-decoration: none; */
 }
+
+
+

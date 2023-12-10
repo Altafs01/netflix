@@ -1,22 +1,7 @@
-@media only screen and (max-width : 600px) {
-    .home{
-        background-image: url(images/banner1.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100%;
-        width: 599px;
-        margin-top: -20px;
-        padding-top: none;
-        border-bottom: 10px solid rgb(35,35,35);
-    }
+@media screen and (max-width : 600px) {
 
-    .nav{
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: baseline;
-        gap: 14px;
-        margin: 0px;
+    html, body{
+        overflow-x: hidden;
     }
 
     .logo img{
@@ -34,8 +19,7 @@
     }
 
     .membership{
-        /* margin-bottom: 30px; */
-        font-size: 1.5rem;
+    font-size: 1.5rem;
     }
 
     .watch {
@@ -86,10 +70,17 @@
 
     .movie_video{
         position: absolute;
-        height: 138px;
-        width: 296px;
-        bottom: -680px;
-        left: 38px;
+        height: 203px;
+        width: 393px;
+        top: 124%;
+        left: 100px;
+    }
+
+    ._3ardc{
+        top: 186%;
+        left: 152px;
+        height: 191px;
+        width: 290px;
     }
     /* panel2 end---------- */
 
@@ -117,21 +108,21 @@
         padding: none;
     }
 
-    .mobile_panel_3{
+    /* .mobile_panel_3{
         margin-right: auto;
         margin-left: auto;
-        /* display: block; */
-    }
+    }  */
     
     .intro_shows{
-        font-weight: 900;
-        line-height: 2.3rem;
+        font-weight: 900; 
+         line-height: 2.3rem;
     }
 
     .doctor_strange{
         position: absolute;
-        left: 120px;
-        padding: 10px 300px;   
+        left: 107px;
+        top: 260%;
+        height: 109px;  
     }
 
     .boxshot{
